@@ -1,0 +1,61 @@
+.theme_btn{
+    border: 1px solid #227700;
+    color: #227700;
+    background-color: #ffffff;
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+}
+.game_ui{
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+.game_ui .start_btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.game_ui .score_panel{
+    position: absolute;
+    right: 0;
+    top: 45px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: antiquewhite;
+    color:#227700;
+    display: block;
+}
+.game_ui .time{
+    position: absolute;
+    right: 0;
+    top: 100px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: antiquewhite;
+    color: #FF9966;
+    display: block;
+}
+.game_area{
+    border: 1px solid #888;
+    width: 400px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+.game_area .game_area_face{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 400px;
+    height: 800px;
+
+}
+html,body{
+    background-color: #fff;
+}
